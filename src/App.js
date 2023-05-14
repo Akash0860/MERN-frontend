@@ -1,10 +1,10 @@
 import React from "react";
 import {Switch,Route,Link} from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import AddReview from "./components/add-review";
 import Login from "./components/login";
 import RestaurantList from "./components/restaurants-list";
 import Restaurant from "./components/restaurant";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
